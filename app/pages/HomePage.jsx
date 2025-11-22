@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     resizeMode: "contain",
-    tintColor: "#FFF5EF",
+   Color: "#FFF5EF",
   },
   titleContainer: {
     marginLeft: 16,
