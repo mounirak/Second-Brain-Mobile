@@ -7,7 +7,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
-    Delius: require("../assets/fonts/Delius.ttf"),
+    fontak: require("../assets/fonts/fontak.ttf"),
   });
 
   useEffect(() => {

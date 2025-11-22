@@ -165,7 +165,7 @@ export default function HomePage() {
       shadowOpacity: 0.08,
       shadowRadius: 8,
       elevation: 4,
-      fontFamily: "Delius"
+      fontFamily: "fontak"
     },
     logoContainer: {
       flexDirection: "row",
@@ -190,6 +190,7 @@ export default function HomePage() {
       fontSize: 13,
       color: "#8D7B95",
       marginTop: 4,
+      fontFamily: "fontak"
 
     },
     scrollView: {
@@ -198,6 +199,7 @@ export default function HomePage() {
     scrollContent: {
       paddingHorizontal: 24,
       paddingVertical: 24,
+      fontFamily: "fontak"
     },
     welcomeCard: {
       backgroundColor: "#FFFFFF",
@@ -213,15 +215,16 @@ export default function HomePage() {
     },
     welcomeTitle: {
       fontSize: 20,
-      fontWeight: "600",
+      fontWeight: "700",
       color: "#5D4E60",
       marginBottom: 4,
-      
+      fontFamily: "fontak"      
     },
     welcomeText: {
       fontSize: 14,
       color: "#8D7B95",
       lineHeight: 20,
+      fontFamily: "fontak"
     },
     featuresSection: {
       marginBottom: 24,
@@ -231,6 +234,7 @@ export default function HomePage() {
       fontWeight: "600",
       color: "#5D4E60",
       marginBottom: 16,
+      fontFamily: "fontak"
     },
     featuresGrid: {
       flexDirection: "row",
@@ -258,6 +262,7 @@ export default function HomePage() {
       justifyContent: "center",
       alignItems: "center",
       marginBottom: 12,
+      
     },
     featureTitle: {
       fontSize: 16,
@@ -270,6 +275,7 @@ export default function HomePage() {
       color: "#8D7B95",
       lineHeight: 16,
       flex: 1,
+      fontFamily: "fontak"
     },
     arrowContainer: {
       position: "absolute",
@@ -292,11 +298,13 @@ export default function HomePage() {
       fontWeight: "600",
       color: "#5D4E60",
       marginBottom: 16,
+      fontFamily: "fontak"
     },
     statsContainer: {
       flexDirection: "row",
       justifyContent: "space-around",
       alignItems: "center",
+      fontFamily: "fontak"
     },
     statItem: {
       alignItems: "center",
@@ -315,6 +323,7 @@ export default function HomePage() {
       width: 1,
       height: 30,
       backgroundColor: "#F0E6F6",
+      fontFamily: "fontak"
     },
     footer: {
       paddingVertical: 16,
