@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -9,17 +9,13 @@ import {
 } from "react-native";
 import uuid from 'react-native-uuid';
 import Task from "../components/Task";
+import { TodosContext } from '../Context/TodosContext';
+import { Ionicons } from '@expo/vector-icons';
+
 
 export default function ToDoList() {
-  const [tasks, setTasks] = useState([
-    {
-      id: "001",
-      title: "Complete project proposal",
-      description: "Finish the client presentation and send for review",
-      completed: true,
-      priority: "high"
-    }
-  ]);
+ 
+  const {tasks,setTasks}=useContext(TodosContext)
 
   const [isAddingTask, setIsAddingTask] = useState(false);
   const [newTaskTitle, setNewTaskTitle] = useState("");
@@ -122,7 +118,11 @@ export default function ToDoList() {
       {/* Header - Fixed */}
       <View style={styles.header}>
         <View style={styles.headerContent}>
-          <Text style={styles.headerIcon}>📝</Text>
+        <Ionicons 
+                    name="checkmark-circle"
+                    size={24} 
+                    color="black"
+                  />
           <View>
             <Text style={styles.headerTitle}>Todo List</Text>
             <Text style={styles.headerSubtitle}>Stay organized and productive</Text>
